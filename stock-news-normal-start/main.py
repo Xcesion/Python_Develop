@@ -43,9 +43,9 @@ print(day_before_yesterday_price)
 difference_price = float(yesterday_price) - float(day_before_yesterday_price)
 up_down =None
 if difference_price > 0:
-    up_down = "🔺"
+    up_down = "⬆️"
 else:
-    up_down = "🔻"
+    up_down = "⬇️"
 print(difference_price)
 #TODO 4. - Work out the percentage difference in price between closing price yesterday and closing price the day before yesterday.
 difference_percentage = round((difference_price/float(yesterday_price))*100)
